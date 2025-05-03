@@ -9,7 +9,7 @@ function generateLyrics() {
   
     outputDiv.innerText = "Generating lyrics... 🎤";
   
-    fetch("http://localhost:5000/generate", {
+    fetch("https://abel-backend-p8u6.vercel.app", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
